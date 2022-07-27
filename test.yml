@@ -4,7 +4,7 @@
     connection: local
     vars:
       mail_path: /home/tmp/email
-      email: "root@pure.localdomain
+      email: "root@pure.localdomain"
       subject: "Sub_message_test"
     
     tasks:
