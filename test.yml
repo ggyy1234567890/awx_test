@@ -9,4 +9,4 @@
     tasks:
     - name: "send Email"
       shell: |
-      /home/tmp/email/mail.sh
+        /home/tmp/email/mail.sh
