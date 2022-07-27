@@ -9,4 +9,4 @@
     
     tasks:
     - name: "send Email"
-      command: {{ mail_path }}/mail.sh {{subject }} {{ email }}
+      command: /home/tmp/email/mail.sh
