@@ -9,5 +9,4 @@
     
     tasks:
     - name: "send Email"
-      command: cd {{ mail_path }}
-      command: ./mail.sh {{subject }} {{ email }}
+      command: {{ mail_path }}/mail.sh {{subject }} {{ email }}
