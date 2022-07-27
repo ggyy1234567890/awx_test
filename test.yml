@@ -1,0 +1,14 @@
+---
+  - name: "Notifaction"
+    hosts: localhost
+    connection: local
+    vars:
+      mail_path: /home/tmp/email
+      email: "root@pure.localdomain
+      subject: "Sub_message_test"
+    
+    tasks:
+    - name: "send Email"
+      shell: |
+        cd {{ mail_path }}
+        ./mail.sh {{subject }} {{ email }}
