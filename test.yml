@@ -8,4 +8,5 @@
       subject: "Sub_message_test"
     tasks:
     - name: "send Email"
-      command: /home/tmp/email/mail.sh
+      shell: |
+      /home/tmp/email/mail.sh
