@@ -6,7 +6,6 @@
       mail_path: /home/tmp/email
       email: "root@pure.localdomain"
       subject: "Sub_message_test"
-    
     tasks:
     - name: "send Email"
       command: /home/tmp/email/mail.sh
