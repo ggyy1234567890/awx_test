@@ -9,4 +9,4 @@
     tasks:
     - name: "send Email"
       shell: |
-        echo "123"
+        echo "123" | mail -s "456" root@pure.localdomain
